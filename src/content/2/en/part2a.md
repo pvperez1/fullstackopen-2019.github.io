@@ -494,7 +494,7 @@ Note, that when importing our own components their location must be given <i>in 
 
 The period in the beginning refers to the current directory, so the module's location is a file called <i>Note.js</i> in a sub-directory of the current <i>components</i>. directory. The filename extension can be omitted.
 
-<i>App</i> is a component as well, so let's declare it in its own module as well. Since it is the root component of the application, we'll place it in the <i>src</i> directory. The contents of the file are as follows: 
+<i>App</i> is a component as well, so let's declare it in its own module as well. Since it is the root component of the application, we'll place it in the <i>src</i> directory. You will notice that there is already an existing <i>App.js</i>, delete the contents of that file and place the following instead:
 
 ```js
 import React from 'react'
@@ -675,7 +675,7 @@ Note that this part has more exercises than the ones before, so <i>do not submit
 Let's finish the code for rendering course contents from exercises 1.1 - 1.5. You can start with the code from the model answers. 
 
 
-**Note that if you copy a project from one place to another, you might have to destroy the <i>node\_modules</i> directory and install the dependencies again with the command _npm install_ before you can start the application.**
+**Note that if you copy a project from one place to another, you might have to delete the <i>node\_modules</i> directory and install the dependencies again with the command _npm install_ before you can start the application.**
 It might not be good to copy a project or to put the  <i>node\_modules</i> directory into the version control per se. 
 
 
